@@ -1,6 +1,7 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
+  
   if int % 3 == 0 # if the number int is divisible by 3
     "Fizz" # Go fizz
   end
@@ -10,7 +11,7 @@ def fizzbuzz(int)
   end
     
     if int % 3 == 0 && int % 5 == 0  # if the number int is divisible by 3 AND 5
-    "Fizzbuzz" # Go fizzbuzz
+    "FizzBuzz" # Go fizzbuzz
   end
 end
 
