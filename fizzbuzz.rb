@@ -8,5 +8,6 @@ def fizzbuzz  (number)
   elsif number/15 == (number/15).to_i
     print "fizzbuzz"
   else
-    print "nil"
+
   end
+end
