@@ -479,3 +479,11 @@ fizzbuzz()  # => You should get an ArgumentError
 Good luck!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/rspec-fizzbuzz' title='RSpec Fizzbuzz'>RSpec Fizzbuzz</a> on Learn.co and start learning to code for free.</p>
+  
+  
+  if (int % 3 == 0) & (int % 5 == 0) 
+    "Fizzbuzz"
+    elsif int % 3 == 0 
+    "Fizz"
+    elsif int % 5 == 0 
+    "Buzz"
