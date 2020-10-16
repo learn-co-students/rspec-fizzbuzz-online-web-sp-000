@@ -1,7 +1,7 @@
 ## Objectives
-
+https://learn.co/tracks/full-stack-web-development-v8/module-3-intro-to-ruby-development/section-6-logic-and-conditions/rspec-fizzbuzz#
 1. Build methods that utilize flow control
-2. Read and understand test output to develop a working program
+2. Read and https://learn.co/tracks/full-stack-web-development-v8/module-3-intro-to-ruby-development/section-6-logic-and-conditions/rspec-fizzbuzz#understand test output to develop a working program
 3. Gain more familiarity with the concept of test driven development
 
 # A Note on This Guide
