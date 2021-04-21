@@ -1,5 +1,8 @@
+
 require_relative './spec_helper.rb'
-# We are missing a 'require_relative' here. Check README.md for instructions and an explanation! 
+require_relative '../fizzbuzz.rb'
+
+# We are missing a 'require_relative' here. Check README.md for instructions and an explanation!
 
 describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
@@ -23,3 +26,8 @@ describe "fizzbuzz" do
     expect(fizz_4).to eq(nil)
   end
 end
+
+fizzbuzz(3)
+fizzbuzz(5)
+fizzbuzz(15)
+fizzbuzz(4)
