@@ -23,3 +23,5 @@ describe "fizzbuzz" do
     expect(fizz_4).to eq(nil)
   end
 end
+require_relative './spec_helper.rb'
+require_relative '../fizzbuzz.rb'
