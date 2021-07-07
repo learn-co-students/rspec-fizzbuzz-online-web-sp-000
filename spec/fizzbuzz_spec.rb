@@ -1,4 +1,5 @@
 require_relative './spec_helper.rb'
+require_relative '../fizzbuzz.rb'
 # We are missing a 'require_relative' here. Check README.md for instructions and an explanation! 
 
 describe "fizzbuzz" do
@@ -9,7 +10,6 @@ describe "fizzbuzz" do
   end
   it 'returns "Buzz" when the number is divisible by 5' do
     fizz_5 = fizzbuzz(5)
-
     expect(fizz_5).to eq("Buzz")
   end
   it 'returns "FizzBuzz" when the number is divisible by 3 and 5' do
