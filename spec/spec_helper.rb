@@ -5,8 +5,7 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
-# NOTE: If you uncomment the following line,
-# you won't encounter the `undefined method \`fizzbuzz'`
+# NOTE: If you uncomment the following line,`
 # error described in the README
 # require_relative "../fizzbuzz"
 RSpec.configure do |config|
